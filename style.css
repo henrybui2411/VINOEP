@@ -1,0 +1,61 @@
+
+head {
+    height: 400px;
+    background-color: crimson;
+}
+body {
+    width : 1600px;
+    background-color: cornflowerblue;
+}
+
+#book {
+    padding: 20px;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+#image {
+    width: 700px;
+    padding: 20px;
+    float: left;
+}
+
+#content {
+    width: 500px;
+    height: auto;
+    float: right;
+    text-align: left;
+}
+#text {
+    width: 500px;
+    height: 550px;
+}
+.readOnlineButton {
+    font-size: 20px;
+    cursor: pointer;
+    font-family:courier;
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    transition-duration: 0.4s;
+}
+.readOnlineButton:hover {
+    background-color: white;
+    color: crimson;
+}
+h1, h2, h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+}
+p {
+    font-size: 120%;
+}
+#copyright {
+    padding-bottom: 20px;
+    float: left;
+}
+#footer {
+    clear: both;
+    float: right;
+}
